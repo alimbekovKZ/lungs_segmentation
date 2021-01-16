@@ -1,0 +1,10 @@
+README.md
+setup.py
+lungs_segmentation/__init__.py
+lungs_segmentation/inference.py
+lungs_segmentation/pre_trained_models.py
+lungs_segmentation.egg-info/PKG-INFO
+lungs_segmentation.egg-info/SOURCES.txt
+lungs_segmentation.egg-info/dependency_links.txt
+lungs_segmentation.egg-info/requires.txt
+lungs_segmentation.egg-info/top_level.txt
