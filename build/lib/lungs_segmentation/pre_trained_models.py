@@ -2,18 +2,18 @@ from collections import namedtuple
 from torch import nn
 from torch.utils import model_zoo
 
-import models.selim_zoo.unet as models
+import lungs_segmentation.unet as Unet
 
 model = namedtuple("model", ["url", "model"])
 
 models = {
     "resnet34": model(
         url="https://github.com/alimbekovKZ/lungs_segmentation/releases/download/1.0.0/resnet34.pth",
-        model=models.Resnet(seg_classes=2, backbone_arch='resnet34'),
+        model=Unet.Resnet(seg_classes=2, backbone_arch='resnet34'),
     ),
     "densenet121": model(
         url="https://github.com/alimbekovKZ/lungs_segmentation/releases/download/1.0.0/densenet121.pth",
-        model=models.DensenetUnet(seg_classes=2, backbone_arch='densenet121'),
+        model=Unet.DensenetUnet(seg_classes=2, backbone_arch='densenet121'),
     )
 }
 

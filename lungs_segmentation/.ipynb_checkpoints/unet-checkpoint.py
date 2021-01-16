@@ -6,10 +6,10 @@ import torch
 from torch import nn
 
 from torch.utils import model_zoo
-from densenet import densenet121, densenet169, densenet161
+from lungs_segmentation.densenet import densenet121, densenet169, densenet161
 
-import resnet as resnet
-from senet import (
+import lungs_segmentation.resnet as resnet
+from lungs_segmentation.senet import (
     se_resnext50_32x4d,
     se_resnext101_32x4d,
     SCSEModule,
