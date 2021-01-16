@@ -11,7 +11,7 @@ name = "lungs_segmentation"
 description = "High quality model for lungs segmentation."
 url = "https://github.com/alimbekovKZ/lungs_segmentation/"
 email = "alimbekovr@hotmail.com"
-author = "Renat Alimbekov"
+author = "Renat Alimbekov, Ivan Vassilenko, Abylaikhan Turlassov"
 requires_python = ">=3.0.0"
 current_dir = os.path.abspath(os.path.dirname(__file__))
 
@@ -93,7 +93,7 @@ setup(
     description=description,
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
-    author="Renat Alimbekov",
+    author="Renat Alimbekov, Ivan Vassilenko, Abylaikhan Turlassov",
     license="MIT",
     url=url,
     packages=find_packages(exclude=["tests", "docs", "images"]),
