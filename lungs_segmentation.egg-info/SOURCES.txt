@@ -1,4 +1,6 @@
 README.md
+Untitled.ipynb
+requirements.txt
 setup.py
 lungs_segmentation/__init__.py
 lungs_segmentation/inference.py
@@ -8,3 +10,16 @@ lungs_segmentation.egg-info/SOURCES.txt
 lungs_segmentation.egg-info/dependency_links.txt
 lungs_segmentation.egg-info/requires.txt
 lungs_segmentation.egg-info/top_level.txt
+lungs_segmentation/.ipynb_checkpoints/__init__-checkpoint.py
+lungs_segmentation/.ipynb_checkpoints/inference-checkpoint.py
+lungs_segmentation/models/resunets.py
+lungs_segmentation/models/selim_zoo/__init__.py
+lungs_segmentation/models/selim_zoo/densenet.py
+lungs_segmentation/models/selim_zoo/resnet.py
+lungs_segmentation/models/selim_zoo/senet.py
+lungs_segmentation/models/selim_zoo/unet.py
+lungs_segmentation/models/selim_zoo/__pycache__/__init__.cpython-37.pyc
+lungs_segmentation/models/selim_zoo/__pycache__/densenet.cpython-37.pyc
+lungs_segmentation/models/selim_zoo/__pycache__/resnet.cpython-37.pyc
+lungs_segmentation/models/selim_zoo/__pycache__/senet.cpython-37.pyc
+lungs_segmentation/models/selim_zoo/__pycache__/unet.cpython-37.pyc
