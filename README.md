@@ -3,6 +3,8 @@ Automated lung segmentation in chest-x ray
 
 ![https://habrastorage.org/webt/vk/jv/8r/vkjv8rjd04f1oicbczq5hyadhv0.png](https://habrastorage.org/webt/vk/jv/8r/vkjv8rjd04f1oicbczq5hyadhv0.png)
 
+Train pipeline: https://github.com/alimbekovKZ/lungs_segmentation_train
+
 ## Installation
 
 `pip install lungs-segmentation`
@@ -13,7 +15,7 @@ Jupyter notebook with the example: [![Open In Colab](https://colab.research.goog
 
 ### WebApp
 
-Comming soon ...
+[https://lungssegmentation.herokuapp.com/](https://lungssegmentation.herokuapp.com/)
 
 ### Models weights
 
@@ -53,8 +55,4 @@ plt.imshow(inference.img_with_masks( image, [mask[0], mask[1]], alpha = 0.1))
 
 ### Authors
 
-![Renat Alimbekov](https://alimbekov.com)
-
-![Ivan Vassilenko](https://www.linkedin.com/in/ivannvassilenko/)
-
-![Abylaikhan Turlassov](https://www.linkedin.com/in/abylaikhan-turlassov-2727b2196/)
+Renat Alimbekov, Ivan Vassilenko, Abylaikhan Turlassov
