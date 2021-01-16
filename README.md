@@ -50,3 +50,11 @@ plt.imshow(inference.img_with_masks( image, [mask[0], mask[1]], alpha = 0.1))
 #### densenet121
 
 ![https://habrastorage.org/webt/ef/01/zo/ef01zo2g2qgsux8ses4keg4g8is.png](https://habrastorage.org/webt/ef/01/zo/ef01zo2g2qgsux8ses4keg4g8is.png)
+
+### Authors
+
+![Renat Alimbekov](https://alimbekov.com)
+
+![Ivan Vassilenko](https://www.linkedin.com/in/ivannvassilenko/)
+
+![Abylaikhan Turlassov](https://www.linkedin.com/in/abylaikhan-turlassov-2727b2196/)
