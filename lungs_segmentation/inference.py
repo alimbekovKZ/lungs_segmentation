@@ -12,7 +12,6 @@ import os
 import matplotlib.pyplot as plt
 import matplotlib
 
-
 COLOR = 'white'
 matplotlib.rcParams['text.color'] = COLOR
 matplotlib.rcParams['axes.labelcolor'] = COLOR
@@ -28,7 +27,6 @@ from tqdm import tqdm
 
 import time
 from sys import getsizeof
-from IPython.display import clear_output
 
 img_size = 512
 aug = A.Compose([A.Resize(img_size, img_size, interpolation=1, p=1)], p=1)  

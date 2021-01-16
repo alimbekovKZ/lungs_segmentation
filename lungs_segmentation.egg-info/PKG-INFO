@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: lungs-segmentation
-Version: 1.0.0
+Version: 0.0.1
 Summary: High quality model for lungs segmentation.
 Home-page: https://github.com/alimbekovKZ/lungs_segmentation/
 Author: Renat Alimbekov

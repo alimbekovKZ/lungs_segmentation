@@ -6,10 +6,10 @@ import torch
 from torch import nn
 
 from torch.utils import model_zoo
-from models.selim_zoo.densenet import densenet121, densenet169, densenet161
+from densenet import densenet121, densenet169, densenet161
 
-from models.selim_zoo import resnet
-from models.selim_zoo.senet import (
+import resnet as resnet
+from senet import (
     se_resnext50_32x4d,
     se_resnext101_32x4d,
     SCSEModule,

@@ -9,7 +9,6 @@ joblib==0.13.2
 opencv_python==4.2.0.34
 setuptools==49.2.0
 torch==1.7.1
-ipython==7.19.0
 imageio==2.9.0
 
 [test]
